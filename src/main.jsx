@@ -3,11 +3,12 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import Main from './layout/Main.jsx';
+import { RouterProvider } from 'react-router-dom';
+import router from './router/Router.jsx';
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Main></Main>
+    <RouterProvider router={router}></RouterProvider>
   </StrictMode>,
 )
