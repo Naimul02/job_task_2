@@ -16,7 +16,7 @@ const Navbar = () => {
      
        <div>
        <div className="custom-bg py-3">
-     <div className="d-flex flex-col lg:flex-row lg:justify-content-between align-items-center lg:container lg:px-auto">
+     <div className="d-flex   justify-content-between container px-auto">
     <div className='d-flex align-items-center'>
           <div className='text-light d-flex align-items-center'>
              <span><FaPhoneAlt className="fs-6"/></span>
